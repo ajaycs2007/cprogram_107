@@ -272,7 +272,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int n,a=0,b=1,c,i;
@@ -288,6 +288,24 @@ int main()
         printf("%d ",c);
         a=b;
         b=c;
+    }
+
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int i,j;
+
+    for(i=1;i<=5;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
     }
 
     return 0;
