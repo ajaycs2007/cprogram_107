@@ -33,13 +33,29 @@ int main()
 }*/
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int num1;
     if (num1 >= 1)
     {
         printf("number is positive");
+    }
+    return 0;
+}*/
+
+
+#include <stdio.h>
+int main()
+{
+    int num1;
+    scanf("%d",&num1);
+    if (num1 %2==0)
+    {
+        printf("number is even");
+    }
+    else{
+        printf("number is  odd");
     }
     return 0;
 }
