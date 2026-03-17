@@ -182,7 +182,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int n,i;
@@ -194,6 +194,27 @@ int main()
     {
         printf("%d x %d = %d\n",n,i,n*i);
     }
+
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int n,rev=0,rem;
+
+    printf("Enter number: ");
+    scanf("%d",&n);
+
+    while(n!=0)
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+
+    printf("Reverse = %d",rev);
 
     return 0;
 }
