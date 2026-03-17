@@ -84,7 +84,7 @@ int main()
 }*/
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int i = 10;
@@ -95,7 +95,34 @@ int main()
 
     } while (i >= 0) 
     return 0;
+}*/
+
+
+#include <stdio.h>
+int main()
+{
+    int a,b,choice;;
+    printf("1.add\n 2.sub\n 3.multiple\n 4.division\n");
+    scanf("%d %d",&a,&b);
+    printf("Enter your choice");
+    scanf("%d",&choice);
+    switch(choice){
+        case 1:
+          printf("addition:%d",a+b);
+          break;
+        case 1:
+          printf("subration:%d",a-b);
+          break;
+        case 1:
+          printf("multiply:%d",a*b);
+          break;
+        case 4:
+          printf("division:%d",a/b);
+          break;
+        default:
+          printf("Enter the correct choice");
+          break;
+
+    }
+    return 0;
 }
-
-
-
