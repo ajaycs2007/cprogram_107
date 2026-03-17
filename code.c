@@ -98,7 +98,7 @@ int main()
 }*/
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int a,b,choice;;
@@ -124,5 +124,21 @@ int main()
           break;
 
     }
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int n,i;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        printf("%d ",i);
+    }
+
     return 0;
 }
