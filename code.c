@@ -380,7 +380,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int a[5],i;
@@ -390,6 +390,23 @@ int main()
 
     for(i=0;i<5;i++)
         printf("%d ",a[i]);
+
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int a[5],i,sum=0;
+
+    for(i=0;i<5;i++)
+        scanf("%d",&a[i]);
+
+    for(i=0;i<5;i++)
+        sum=sum+a[i];
+
+    printf("Sum = %d",sum);
 
     return 0;
 }
