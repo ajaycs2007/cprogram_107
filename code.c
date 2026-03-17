@@ -349,7 +349,7 @@ int main()
     return 0;
 }*/
 
-#include<stdio.h>
+/*#include<stdio.h>
 int add(int a,int b)
 {
     return a+b;
@@ -359,5 +359,22 @@ int main()
     int x,y;
     scanf("%d %d",&x,&y);
     printf("Sum = %d",add(x,y));
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int factorial(int n)
+{
+    int i,f=1;
+    for(i=1;i<=n;i++)
+        f=f*i;
+    return f;
+}
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("Factorial = %d",factorial(n));
     return 0;
 }
