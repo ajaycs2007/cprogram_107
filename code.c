@@ -61,12 +61,24 @@ int main()
 }*/
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int i;
     for(i=0;i<=10;i++){
         printf(" \n",i);
+    }
+    return 0;
+}*/
+
+
+#include <stdio.h>
+int main()
+{
+    int i=1;
+    while(i<=20){
+        printf(" \n ",i);
+        i++;
     }
     return 0;
 }
