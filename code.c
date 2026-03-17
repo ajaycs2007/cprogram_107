@@ -144,7 +144,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int n,i,sum=0;
@@ -158,6 +158,25 @@ int main()
     }
 
     printf("Sum = %d",sum);
+
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int n,i,fact=1;
+
+    printf("Enter number: ");
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+
+    printf("Factorial = %d",fact);
 
     return 0;
 }
