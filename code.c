@@ -246,7 +246,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int n,i,flag=0;
@@ -267,6 +267,28 @@ int main()
         printf("Prime Number");
     else
         printf("Not Prime");
+
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int n,a=0,b=1,c,i;
+
+    printf("Enter limit: ");
+    scanf("%d",&n);
+
+    printf("%d %d ",a,b);
+
+    for(i=3;i<=n;i++)
+    {
+        c=a+b;
+        printf("%d ",c);
+        a=b;
+        b=c;
+    }
 
     return 0;
 }
