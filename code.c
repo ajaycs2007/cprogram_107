@@ -45,7 +45,7 @@ int main()
 }*/
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int num1;
@@ -56,6 +56,17 @@ int main()
     }
     else{
         printf("number is  odd");
+    }
+    return 0;
+}*/
+
+
+#include <stdio.h>
+int main()
+{
+    int i;
+    for(i=0;i<=10;i++){
+        printf(" \n",i);
     }
     return 0;
 }
