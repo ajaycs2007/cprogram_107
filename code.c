@@ -294,7 +294,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int i,j;
@@ -307,6 +307,26 @@ int main()
         }
         printf("\n");
     }
+
+    return 0;
+*/
+
+
+#include<stdio.h>
+int main()
+{
+    int n,count=0;
+
+    printf("Enter number: ");
+    scanf("%d",&n);
+
+    while(n!=0)
+    {
+        n=n/10;
+        count++;
+    }
+
+    printf("Digits = %d",count);
 
     return 0;
 }
