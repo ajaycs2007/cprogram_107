@@ -363,7 +363,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int factorial(int n)
 {
     int i,f=1;
@@ -376,5 +376,20 @@ int main()
     int n;
     scanf("%d",&n);
     printf("Factorial = %d",factorial(n));
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int a[5],i;
+
+    for(i=0;i<5;i++)
+        scanf("%d",&a[i]);
+
+    for(i=0;i<5;i++)
+        printf("%d ",a[i]);
+
     return 0;
 }
