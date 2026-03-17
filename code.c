@@ -332,7 +332,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int a,b,c;
@@ -346,5 +346,18 @@ int main()
     else
         printf("Largest = %d",c);
 
+    return 0;
+}*/
+
+#include<stdio.h>
+int add(int a,int b)
+{
+    return a+b;
+}
+int main()
+{
+    int x,y;
+    scanf("%d %d",&x,&y);
+    printf("Sum = %d",add(x,y));
     return 0;
 }
