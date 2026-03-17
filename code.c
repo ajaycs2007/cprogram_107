@@ -72,7 +72,7 @@ int main()
 }*/
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int i=1;
@@ -80,6 +80,20 @@ int main()
         printf(" \n ",i);
         i++;
     }
+    return 0;
+}*/
+
+
+#include <stdio.h>
+int main()
+{
+    int i = 10;
+    do
+    {
+        printf("\n %d", i);
+        i--;
+
+    } while (i >= 0) 
     return 0;
 }
 
