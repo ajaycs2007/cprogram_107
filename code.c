@@ -199,7 +199,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int n,rev=0,rem;
@@ -215,6 +215,32 @@ int main()
     }
 
     printf("Reverse = %d",rev);
+
+    return 0;
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int n,temp,rev=0,rem;
+
+    printf("Enter number: ");
+    scanf("%d",&n);
+
+    temp=n;
+
+    while(n!=0)
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+
+    if(temp==rev)
+        printf("Palindrome");
+    else
+        printf("Not Palindrome");
 
     return 0;
 }
