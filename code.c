@@ -22,13 +22,25 @@ int main()
 }*/
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int num1,num2,sum;
     scanf("%d %d",&num1,&num2);
     sum = num1+num2;
     printf("Sum of two numbers: %d",sum);
+    return 0;
+}*/
+
+
+#include <stdio.h>
+int main()
+{
+    int num1;
+    if (num1 >= 1)
+    {
+        printf("number is positive");
+    }
     return 0;
 }
 
